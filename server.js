@@ -24,7 +24,7 @@ app.use(methodOverride('_method'));
 
 app.use(function(req, res, next) {
   console.log('Hello!');
-  res.locals.time = new Date().toLocaleTimeString();
+  res.locals.time = new Date().toLocaleDateString();
   next();
 });
 

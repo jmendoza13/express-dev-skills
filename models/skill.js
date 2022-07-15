@@ -1,7 +1,7 @@
 const skills = [
-    {id: 125223, skill: 'Get Matcha Powder', done: true},
-    {id: 127904, skill: 'Make Matcha Latte', done: false},
-    {id: 139608, skill: 'Repeat', done: false}
+    {id: 125223, skill: 'Become a Barista', accomplished: true},
+    {id: 127904, skill: 'Become a Coffee Master', accomplished: true},
+    {id: 139608, skill: 'Latte Art Connoisseur', accomplished: false}
   ];
   
   module.exports = {
