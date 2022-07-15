@@ -3,9 +3,14 @@ var router = express.Router();
 
 var skillsCtrl = require('../controllers/skills');
 
-//GET /skills
+//GET /
 router.get('/', skillsCtrl.index);
-
-//GET /skills/:id
+//Get /skills/new
+router.get('/new', skillsCtrl.new);
+//GET /:id
 router.get('/:id', skillsCtrl.show);
+//Get /
+router.post('/', skillsCtrl.create);
+
+
 module.exports = router;
